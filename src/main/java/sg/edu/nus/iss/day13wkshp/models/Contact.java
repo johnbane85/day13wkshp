@@ -13,6 +13,10 @@ public class Contact {
     this.id = UUID.randomUUID().toString().substring(0, 8);
   }
 
+  public String getId() {
+    return this.id;
+  }
+
   public Contact(String id) {
     this.id = id;
   }
